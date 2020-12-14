@@ -1,3 +1,23 @@
+# Install
+
+### Use Anaconda3-4.1.1-Linux-x86_64.sh to install python 3.5 and pyqt4.11 
+https://stackoverflow.com/questions/43420405/how-do-i-install-pyqt4-on-anaconda-version-4-3-x
+
+```
+conda update conda
+```
+
+
+### Create an environment
+
+```
+conda env create -f ideepcolor.yml
+```
+
+### Encoding error for path
+
+Append `.decode("utf-8")` to the path.
+
 
 # Interactive Deep Colorization
 
